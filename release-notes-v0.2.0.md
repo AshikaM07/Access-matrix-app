@@ -32,6 +32,6 @@ First public release.
 
 | File | SHA-256 |
 |---|---|
-| `privacy-lens-0.2.0.apk` | `1cb2da727cbc1d4187c2d183bc2d7efac51f8655e38c69796614149c3b853700` |
+| `privacy-lens-0.2.0.apk` | `bf3593495e02d45430a8e34c24781ccad4a5b0dead6b007959ff34abbc11fc78` |
 
 Signing certificate SHA-256: `4f139e0012fa788c6c88d53d4e3071349a553253abb4b200c13b519f919e70b6`
