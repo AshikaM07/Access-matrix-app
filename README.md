@@ -23,7 +23,7 @@ you which apps hold your location, and it says nothing when an update quietly ad
 ## What it does
 
 - **Permissions, two ways:** pick a permission and see every app that can use it, sorted Allowed →
-  Limited → Denied. Or see every app × every permission at once in a grid.
+  Limited → Not allowed. Or see every app × every permission at once in a grid.
 - **Special access too:** accessibility services, device admins, display over other apps, usage
   access, notification access and installing other apps.
 - **History:** "Wallpaper Daily got Location · After updating to 5.2". Every change is tagged as part
@@ -50,6 +50,9 @@ and [privacy](privacy.md) for how data is handled: it stays on your phone.
   **Requested**. On Android 10, the same applies to "display over other apps" and usage access.
   Notifications that an app has never been asked about also show as **Requested**: some phones,
   such as Samsung, still deliver them, and other apps can't tell.
+- **"Not allowed" includes "Ask every time".** For location, camera and microphone, Android doesn't
+  tell other apps whether you chose *Don't allow* or *Ask every time*. Privacy Lens links to
+  Android's Permission manager, which shows the exact setting.
 - **No access log.** Android only lets system apps see *when* an app actually used the camera,
   microphone or location, so Privacy Lens shows who *can*, not who *did*.
 - **Not on the Play Store.** Seeing every installed app needs a permission the Play Store limits.
@@ -66,7 +69,7 @@ and [privacy](privacy.md) for how data is handled: it stays on your phone.
 
 ## Quality
 
-- 96 JVM unit tests, 13 Python tests and 8 instrumented tests, all passing for this release
+- 101 JVM unit tests, 13 Python tests and 8 instrumented tests, all passing for this release
 - The special-access readers are checked against real grants and revokes on Android 10 and Android 16
 - Checked on an Android 16 emulator at 100 % and 200 % font size, in light and dark themes, and on a
   Samsung Galaxy A05s (Android 13)
