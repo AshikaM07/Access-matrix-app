@@ -66,9 +66,10 @@ and [privacy](privacy.md) for how data is handled: it stays on your phone.
 
 ## Quality
 
-- 95 JVM unit tests, 13 Python tests and 8 instrumented tests, all passing for this release
+- 96 JVM unit tests, 13 Python tests and 8 instrumented tests, all passing for this release
 - The special-access readers are checked against real grants and revokes on Android 10 and Android 16
-- Checked on an Android 16 emulator at 100 % and 200 % font size, in light and dark themes
+- Checked on an Android 16 emulator at 100 % and 200 % font size, in light and dark themes, and on a
+  Samsung Galaxy A05s (Android 13)
 
 v0.2.1 is released and still being improved.
 
