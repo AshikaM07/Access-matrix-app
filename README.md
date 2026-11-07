@@ -36,11 +36,11 @@ you which apps hold your location, and it says nothing when an update quietly ad
 ## Install
 
 1. Open the [latest release](https://github.com/AshikaM07/Access-matrix-app/releases/latest) on an Android phone.
-2. Download `privacy-lens-0.2.0.apk` and open it.
+2. Download `privacy-lens-0.2.1.apk` and open it.
 3. Allow your browser to install apps if asked.
 4. If Play Protect warns you, tap **More details > Install anyway**. It appears because the app isn't on the Play Store.
 
-Needs Android 8 or newer. See the [release notes](release-notes-v0.2.0.md) for known limitations,
+Needs Android 8 or newer. See the [release notes](release-notes-v0.2.1.md) for known limitations,
 and [privacy](privacy.md) for how data is handled: it stays on your phone.
 
 ## Good to know
@@ -48,6 +48,8 @@ and [privacy](privacy.md) for how data is handled: it stays on your phone.
 - **Some things Android keeps hidden.** For notification access and "install unknown apps", other
   apps can only see that an app *asks* for it, not whether it's turned on, so those show as
   **Requested**. On Android 10, the same applies to "display over other apps" and usage access.
+  Notifications that an app has never been asked about also show as **Requested**: some phones,
+  such as Samsung, still deliver them, and other apps can't tell.
 - **No access log.** Android only lets system apps see *when* an app actually used the camera,
   microphone or location, so Privacy Lens shows who *can*, not who *did*.
 - **Not on the Play Store.** Seeing every installed app needs a permission the Play Store limits.
@@ -68,7 +70,7 @@ and [privacy](privacy.md) for how data is handled: it stays on your phone.
 - The special-access readers are checked against real grants and revokes on Android 10 and Android 16
 - Checked on an Android 16 emulator at 100 % and 200 % font size, in light and dark themes
 
-v0.2.0 is released and still being improved.
+v0.2.1 is released and still being improved.
 
 ## Licence
 
